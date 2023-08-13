@@ -198,6 +198,8 @@ a{
 .banner-button a img{
     width: 24px;
     height: 24px;
+    right: -20px;
+    position: relative;
 }
 .banner-cont{
     height: 100%;
