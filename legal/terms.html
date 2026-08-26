@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions — NexisHealth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <a href="../index.html" class="brand">FusionNexis</a>
+        <div class="lang-switch">
+            <a data-lang="en" href="?lang=en">English</a>
+            <a data-lang="zh" href="?lang=zh">中文</a>
+        </div>
+    </div>
+
+    <!-- English -->
+    <div class="lang-en">
+        <h1>Terms and Conditions</h1>
+        <p class="updated">Last updated: August 2026</p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing or using NexisHealth (the "App"), you confirm that you have read, understood, and agree to be bound by these Terms. If you do not agree with any part of these Terms, please stop using the App.</p>
+
+        <h2>2. Description of Service</h2>
+        <p>The App is a Personal Health Record (PHR) tool intended solely for you to organize your own medical documents. Features include:</p>
+        <ul>
+            <li>Upload and structurally store images of your medical reports;</li>
+            <li>AI-assisted recognition of key indicators from your reports;</li>
+            <li>Visualize how your indicators change over time.</li>
+        </ul>
+        <p><strong>The App does NOT provide diagnosis, treatment, medication advice, or any form of medical practice.</strong></p>
+
+        <h2>3. Data We Collect</h2>
+        <p>To deliver the service above, the App collects: account details (email, password hash), patient profile fields you supply or that AI extracts from your uploads (name, sex, age, medical record number, diagnosis), report images and their structured indicator values, and minimal operational logs (e.g. crash reports, excluding health data). The App does not use advertising identifiers, does not track behavior for advertising, and does not sell your data. See the <a href="privacy.html?lang=en">Privacy Policy</a> for the full breakdown.</p>
+
+        <h2>4. Storage, Encryption &amp; Cross-border Transfer</h2>
+        <p>Your data is stored in Alibaba Cloud Singapore region. Data in transit is protected by TLS 1.2 or higher; sensitive fields at rest (name, diagnosis, etc.) are encrypted with AES-256-GCM. To perform report recognition, report images are transmitted to third-party large-language-model services (such as Anthropic and Qwen-VL) solely for that recognition task and are not used by those providers for model training.</p>
+
+        <h2>5. Medical Disclaimer</h2>
+        <p>The App is a personal health record management tool. It is <strong>NOT a medical device</strong> and does <strong>NOT constitute the practice of medicine</strong>. Everything shown in the App — extracted indicators, reference ranges, color coding, trend charts, and any explanatory text — is provided for your personal record-keeping and reference only. All decisions relating to health, diagnosis, medication, or treatment must be based on the advice of a licensed physician. Do not delay seeking, or disregard, professional medical advice because of information shown in the App.</p>
+
+        <h2>6. Account &amp; Data Deletion</h2>
+        <p>You may permanently delete your account and associated data at any time via "Profile → Delete Account" inside the App, or by following <a href="delete-account.html?lang=en">these instructions</a>. Once triggered, we immediately hard-delete from the database: your account record, patient profile, all report structured data, all indicator records, and all authentication tokens. The original report image files, stored on object storage under a key that includes your user ID and upload timestamp, are no longer referenced by the App after account deletion; if you want those image files removed as well, contact us via the email below. Deletion is irreversible.</p>
+
+        <h2>7. User Responsibilities</h2>
+        <p>You agree to: upload only your own health records or records for which you have lawful authorization; refrain from uploading unlawful, infringing, or third-party medical records outside your control; keep your account credentials secure; and use the App only for personal health record-keeping (no commercial resale, bulk scraping, or clinical-trial coordination).</p>
+
+        <h2>8. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by applicable law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App, including any health consequences resulting from misinterpretation or misuse of information shown.</p>
+
+        <h2>9. Contact Us</h2>
+        <p>For questions about these Terms, or to request access to, export of, or deletion of your data, contact us at <a href="mailto:support@fusionnexis.com">support@fusionnexis.com</a>. We will respond within a reasonable time frame.</p>
+    </div>
+
+    <!-- 中文 -->
+    <div class="lang-zh">
+        <h1>条款和条件</h1>
+        <p class="updated">最后更新：2026 年 8 月</p>
+
+        <h2>1. 条款接受</h2>
+        <p>通过访问和使用 NexisHealth（"本应用"），您确认已阅读、理解并同意受本条款约束。若您不同意任一条款，请停止使用本应用。</p>
+
+        <h2>2. 服务说明</h2>
+        <p>本应用是一款个人健康档案（Personal Health Record）管理工具，仅面向用户本人管理自己的医疗资料，具体功能包括：</p>
+        <ul>
+            <li>上传并结构化保存您的医疗报告图片；</li>
+            <li>AI 辅助识别报告中的关键指标；</li>
+            <li>以图表形式展示指标随时间的变化趋势。</li>
+        </ul>
+        <p><strong>本应用不提供任何形式的诊断、治疗、用药建议或医生服务。</strong></p>
+
+        <h2>3. 我们收集哪些数据</h2>
+        <p>为提供上述服务，本应用会收集：账户信息（邮箱、密码哈希）、患者基本信息（姓名、性别、年龄、病历号、诊断，均由您主动填写或由 AI 从您上传的报告中提取）、医疗报告图片及其结构化后的指标数值、以及必要的应用运行日志（如崩溃信息，不含健康数据）。我们不收集广告标识符，不进行行为追踪，不将数据用于广告投放。完整细节请参阅<a href="privacy.html?lang=zh">隐私政策</a>。</p>
+
+        <h2>4. 数据存储、加密与跨境</h2>
+        <p>您的数据存储于阿里云新加坡区。传输过程采用 TLS 1.2 及以上协议加密；数据库中的敏感字段（姓名、诊断等）以 AES-256-GCM 算法进行静态加密。为完成报告识别功能，报告图片会传输至第三方大语言模型服务（如 Anthropic、通义千问 VL），仅用于本次识别，不会被服务商用于模型训练。</p>
+
+        <h2>5. 医疗免责声明</h2>
+        <p>本应用为个人健康档案管理工具，<strong>不是医疗器械</strong>，<strong>不构成医疗行为</strong>。应用中呈现的所有内容——包括 AI 从报告中提取的指标、参考区间、颜色标注、趋势图表以及任何解释性文字——仅供您本人整理与参考。所有与健康、诊断、用药、治疗相关的决策，请以持牌医师意见为准。请勿因本应用提供的信息延迟就医或忽视专业医疗建议。</p>
+
+        <h2>6. 账号与数据删除</h2>
+        <p>您可以随时在应用内"个人中心 → 删除账号"永久删除您的账号与相关数据，或参见<a href="delete-account.html?lang=zh">删除说明</a>。执行后，我们会立即从数据库中硬删除：账户记录、患者信息、所有医疗报告结构化数据、所有指标记录、登录令牌。您已上传的原始报告图片存储于对象存储服务，其文件命名包含用户 ID 与时间戳，删除账号后应用不再引用这些文件，如需一并删除请通过下述邮箱联系我们。删除操作不可撤销。</p>
+
+        <h2>7. 用户责任</h2>
+        <p>您同意：仅上传您本人或经合法授权的健康资料；不上传违法、侵权或不属于您管辖的他人医疗记录；妥善保管您的账户凭据；不将本应用用于非个人健康管理以外的用途（如商业转售、批量爬取、临床试验组织等）。</p>
+
+        <h2>8. 责任限制</h2>
+        <p>在适用法律允许的最大范围内，我们对因使用或无法使用本应用所导致的任何间接、偶然、特殊、后果性或惩罚性损害不承担责任，包括但不限于因误读、误用应用中信息而产生的健康后果。</p>
+
+        <h2>9. 联系我们</h2>
+        <p>如对本条款有任何疑问，或希望申请查阅、导出、删除您的数据，请通过 <a href="mailto:support@fusionnexis.com">support@fusionnexis.com</a> 联系我们，我们将在合理时间内响应。</p>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 FusionNexis · <a href="privacy.html">Privacy Policy</a> · <a href="delete-account.html">Account Deletion</a></p>
+    </div>
+</div>
+
+<script src="lang.js"></script>
+</body>
+</html>

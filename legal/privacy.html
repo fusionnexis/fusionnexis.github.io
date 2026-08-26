@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — NexisHealth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <a href="../index.html" class="brand">FusionNexis</a>
+        <div class="lang-switch">
+            <a data-lang="en" href="?lang=en">English</a>
+            <a data-lang="zh" href="?lang=zh">中文</a>
+        </div>
+    </div>
+
+    <!-- English -->
+    <div class="lang-en">
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: August 2026</p>
+
+        <h2>1. Introduction</h2>
+        <p>NexisHealth (the "App") is operated by FusionNexis. This Privacy Policy explains how we collect, use, store, and protect your personal information. The App is intended for individual users aged 18 or older to manage their own health records. By using the App, you acknowledge that you have read and accepted this policy.</p>
+
+        <h2>2. Data We Collect</h2>
+        <p><strong>Account data</strong>: email, password hash, authentication tokens.</p>
+        <p><strong>Patient profile</strong>: name, sex, age, medical record number, diagnosis (either supplied by you or extracted by AI from your uploads).</p>
+        <p><strong>Health data</strong>: medical report images you upload, along with the structured indicators, reference ranges, and sampling dates that AI extracts from them.</p>
+        <p><strong>Operational data</strong>: crash logs and performance metrics (excluding health data) used to diagnose app issues.</p>
+        <p>We do not collect advertising identifiers, do not track behavior, and do not integrate third-party advertising SDKs.</p>
+
+        <h2>3. How We Use Your Data</h2>
+        <p>Your data is used solely to: display your own health record within the App; call AI services to recognize reports; render indicator trend charts; authenticate you and log security events; improve app reliability. We do not use your health data for advertising, marketing, profiling, or resale.</p>
+
+        <h2>4. Third-party Services</h2>
+        <p>For report recognition, report images are transmitted transiently to the following large-language-model providers: <strong>Anthropic (Claude family)</strong> and <strong>Alibaba Cloud Qwen-VL</strong>. These providers process the images only for the recognition request and do not use your data to train their models.</p>
+        <p>Authentication supports <strong>Google OAuth</strong>; when you sign in with Google, you authorize Google to share your email and basic profile with the App.</p>
+        <p>Object storage: <strong>Alibaba Cloud OSS, Singapore region</strong>, used to persist original report images.</p>
+
+        <h2>5. Storage, Encryption &amp; Retention</h2>
+        <p>Your data is stored in Alibaba Cloud Singapore region. Data in transit uses TLS 1.2 or higher; sensitive fields at rest (name, diagnosis, etc.) are encrypted with AES-256-GCM.</p>
+        <p><strong>Retention</strong>: as long as your account exists, we retain your health record data. When you trigger "Delete Account" inside the App, we immediately hard-delete all related database records. Original report image files on object storage are retained for audit traceability and are not deleted automatically; email <a href="mailto:support@fusionnexis.com">support@fusionnexis.com</a> to request their removal.</p>
+
+        <h2>6. Cross-border Data Transfer</h2>
+        <p>Your data is stored in Singapore by default; during report recognition, images are transmitted to the LLM providers' servers in their respective operating regions. Data does not flow into mainland China as part of this process. Please do not use the App to upload information subject to mainland China's cross-border data restrictions.</p>
+
+        <h2>7. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>view all data we hold about you (the entire dataset is visible within the App UI);</li>
+            <li>obtain a copy of your data (via email request);</li>
+            <li>delete your account and data at any time ("Profile → Delete Account", or via <a href="delete-account.html?lang=en">these instructions</a>);</li>
+            <li>withdraw consent and stop using the App at any time;</li>
+            <li>raise complaints about any practice in this policy.</li>
+        </ul>
+
+        <h2>8. Minors</h2>
+        <p>The App is not directed at children under 18. If we discover that we have inadvertently collected personal information from a minor, we will delete it. If you are the legal guardian of a minor and believe they have provided us with information, please contact us so we can assist with deletion.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time — for example, when new features are added or laws change. Material changes will be prominently notified on app launch, and the "Last updated" date at the top of this page will reflect the change. Continued use after the effective date constitutes acceptance.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>For questions about this Privacy Policy, or to exercise your data rights, contact us at <a href="mailto:support@fusionnexis.com">support@fusionnexis.com</a>. We will respond within a reasonable time frame.</p>
+    </div>
+
+    <!-- 中文 -->
+    <div class="lang-zh">
+        <h1>隐私政策</h1>
+        <p class="updated">最后更新：2026 年 8 月</p>
+
+        <h2>1. 引言</h2>
+        <p>NexisHealth（"本应用"）由 FusionNexis 运营。本隐私政策说明我们如何收集、使用、存储与保护您的个人信息。本应用面向 18 周岁及以上的个人用户，用于管理其本人的健康档案。使用本应用即表示您已阅读并接受本政策。</p>
+
+        <h2>2. 我们收集哪些数据</h2>
+        <p><strong>账户数据</strong>：邮箱地址、密码哈希、登录令牌。</p>
+        <p><strong>患者档案</strong>：姓名、性别、年龄、病历号、诊断（由您填写或由 AI 从您上传的报告中提取）。</p>
+        <p><strong>医疗数据</strong>：您上传的报告图片，以及 AI 从图片中提取的指标、参考区间、检测日期等结构化字段。</p>
+        <p><strong>运行数据</strong>：崩溃日志、性能指标（不含健康数据），用于诊断应用故障。</p>
+        <p>我们不收集广告标识符（Ad ID），不进行行为追踪，不使用第三方广告 SDK。</p>
+
+        <h2>3. 我们如何使用您的数据</h2>
+        <p>您的数据仅用于：向您本人展示健康档案；调用 AI 服务识别报告；生成指标趋势图；账户认证与安全审计；改进应用稳定性。我们不会将您的健康数据用于任何形式的广告、营销、画像分析、或对外出售。</p>
+
+        <h2>4. 第三方服务</h2>
+        <p>为完成报告识别，报告图片会临时传输至以下大语言模型服务：<strong>Anthropic（Claude 系列）</strong>、<strong>阿里云通义千问 VL</strong>。这些服务商仅在本次识别请求中处理图片，不会将您的数据用于模型训练。</p>
+        <p>身份认证支持 <strong>Google OAuth</strong> 登录，登录时您授权 Google 向本应用共享您的邮箱与基本资料。</p>
+        <p>对象存储服务：<strong>阿里云 OSS 新加坡区</strong>，用于持久化保存原始报告图片。</p>
+
+        <h2>5. 存储、加密与保留期</h2>
+        <p>数据存储于阿里云新加坡区。传输过程使用 TLS 1.2 及以上协议加密；数据库中的敏感字段（姓名、诊断等）以 AES-256-GCM 算法进行静态加密。</p>
+        <p><strong>保留期</strong>：只要您的账户存在，我们即持续保留您的健康档案数据。当您通过应用内"删除账号"操作后，我们立即从数据库硬删除全部相关记录；对象存储中的原始图片文件因需保留审计线索不会自动删除，如需一并删除请通过 <a href="mailto:support@fusionnexis.com">support@fusionnexis.com</a> 提交请求。</p>
+
+        <h2>6. 跨境数据传输</h2>
+        <p>您的数据默认存储于新加坡；报告识别过程中，图片会传输至上述 LLM 服务商在其运营地区的服务器。在此过程中，数据不会流入中国大陆境内。请勿使用本应用上传涉及中国大陆境内数据出境法律限制的信息。</p>
+
+        <h2>7. 您的权利</h2>
+        <p>您有权：</p>
+        <ul>
+            <li>查阅您在本应用中存储的所有数据（应用内界面全部可视）；</li>
+            <li>获得您的数据副本（通过邮件请求）；</li>
+            <li>随时删除您的账户与数据（应用内"个人中心 → 删除账号"，或参见<a href="delete-account.html?lang=zh">删除说明</a>）；</li>
+            <li>随时撤回同意并停止使用本应用；</li>
+            <li>对本政策的任何做法提出投诉。</li>
+        </ul>
+
+        <h2>8. 未成年人</h2>
+        <p>本应用不面向 18 周岁以下的未成年人。若我们发现无意中收集了未成年人的信息，将立即删除。若您是未成年人的法定监护人并认为其向我们提供了信息，请联系我们协助删除。</p>
+
+        <h2>9. 政策变更</h2>
+        <p>我们可能不时更新本隐私政策，例如新增功能或响应法律变化。重大变更将在应用启动时以显著方式提示，并更新本页顶部的"最后更新"日期。您继续使用即视为接受变更。</p>
+
+        <h2>10. 联系我们</h2>
+        <p>如对本隐私政策有任何疑问，或希望行使您的数据权利，请通过 <a href="mailto:support@fusionnexis.com">support@fusionnexis.com</a> 联系我们，我们将在合理时间内响应。</p>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 FusionNexis · <a href="terms.html">Terms of Service</a> · <a href="delete-account.html">Account Deletion</a></p>
+    </div>
+</div>
+
+<script src="lang.js"></script>
+</body>
+</html>

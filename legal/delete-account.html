@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account &amp; Data Deletion — NexisHealth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <a href="../index.html" class="brand">FusionNexis</a>
+        <div class="lang-switch">
+            <a data-lang="en" href="?lang=en">English</a>
+            <a data-lang="zh" href="?lang=zh">中文</a>
+        </div>
+    </div>
+
+    <!-- English -->
+    <div class="lang-en">
+        <h1>Account &amp; Data Deletion</h1>
+        <p class="updated">Last updated: August 2026</p>
+
+        <h2>Delete from within the App (recommended)</h2>
+        <p>If you can sign in to NexisHealth, the fastest way to delete your account is directly in the app:</p>
+        <ul>
+            <li>Open <strong>NexisHealth</strong> on your device.</li>
+            <li>Sign in with the account you want to delete.</li>
+            <li>Go to <strong>Profile → Account Settings → Delete Account</strong>.</li>
+            <li>Read the warning, type <code>DELETE</code> to confirm, and tap <strong>Permanently Delete My Account</strong>.</li>
+        </ul>
+        <p>Deletion is <strong>immediate and irreversible</strong>. There is no grace period.</p>
+
+        <h2>Delete by email (if you cannot sign in)</h2>
+        <p>If you no longer have access to your account, email <a href="mailto:support@fusionnexis.com?subject=Account%20deletion%20request">support@fusionnexis.com</a> from the address you registered with, and include:</p>
+        <ul>
+            <li>Subject: <em>Account deletion request</em></li>
+            <li>The registered email address</li>
+            <li>Any other identifier you remember (e.g. approximate registration date)</li>
+        </ul>
+        <p>We will process the request within <strong>7 working days</strong> and reply with confirmation.</p>
+
+        <h2>What gets deleted</h2>
+        <p>Upon deletion we <strong>hard-delete</strong> from our database:</p>
+        <ul>
+            <li>Your account record (email, password hash, tokens)</li>
+            <li>Your patient profile (name, sex, age, medical record number, diagnosis)</li>
+            <li>All structured medical report data (indicators, reference ranges, sampling dates)</li>
+            <li>All indicator records</li>
+            <li>All authentication tokens (existing sessions are revoked)</li>
+        </ul>
+
+        <h2>What is retained (and why)</h2>
+        <p>The original report image files you uploaded remain on our object storage (Alibaba Cloud OSS, Singapore region) for audit traceability. The App no longer references these files after account deletion, and no one can access them via the App. <strong>If you want the raw image files removed as well, please state so in the email above</strong> and we will purge them within 30 days.</p>
+
+        <h2>Other data</h2>
+        <p>Aggregated crash logs and telemetry are anonymized and cannot be linked back to your account after deletion; they are retained for at most 90 days.</p>
+
+        <h2>Related documents</h2>
+        <ul>
+            <li><a href="privacy.html?lang=en">Privacy Policy</a></li>
+            <li><a href="terms.html?lang=en">Terms and Conditions</a></li>
+        </ul>
+    </div>
+
+    <!-- 中文 -->
+    <div class="lang-zh">
+        <h1>账号与数据删除</h1>
+        <p class="updated">最后更新：2026 年 8 月</p>
+
+        <h2>应用内删除（推荐）</h2>
+        <p>如果您仍能登录 NexisHealth，最快的方式是在应用内直接删除：</p>
+        <ul>
+            <li>在设备上打开 <strong>NexisHealth</strong>；</li>
+            <li>登录您要删除的账号；</li>
+            <li>进入 <strong>个人中心 → 账户设置 → 删除账号</strong>；</li>
+            <li>阅读警告，输入 <code>DELETE</code> 确认，点击 <strong>永久删除我的账号</strong>。</li>
+        </ul>
+        <p>删除操作 <strong>立即生效，不可撤销</strong>，没有宽限期。</p>
+
+        <h2>通过邮件删除（无法登录时）</h2>
+        <p>如果您已无法登录账号，请从注册邮箱向 <a href="mailto:support@fusionnexis.com?subject=%E5%88%A0%E9%99%A4%E8%B4%A6%E5%8F%B7%E7%94%B3%E8%AF%B7">support@fusionnexis.com</a> 发送邮件，包含以下信息：</p>
+        <ul>
+            <li>主题：<em>删除账号申请</em></li>
+            <li>注册使用的邮箱地址</li>
+            <li>您能记得的其他标识（如大概的注册时间）</li>
+        </ul>
+        <p>我们将在 <strong>7 个工作日</strong> 内处理并回复确认。</p>
+
+        <h2>会删除哪些内容</h2>
+        <p>执行删除后，我们会从数据库中 <strong>硬删除</strong>：</p>
+        <ul>
+            <li>账户记录（邮箱、密码哈希、登录令牌）；</li>
+            <li>患者档案（姓名、性别、年龄、病历号、诊断）；</li>
+            <li>所有医疗报告结构化数据（指标、参考区间、检测日期）；</li>
+            <li>所有指标记录；</li>
+            <li>所有登录令牌（现有会话立即失效）。</li>
+        </ul>
+
+        <h2>会保留哪些内容（以及为什么）</h2>
+        <p>您上传的原始报告图片文件保留在对象存储（阿里云 OSS 新加坡区）中，用于审计追踪。删除账号后应用不再引用这些文件，任何人无法通过应用访问。<strong>若您希望一并删除原始图片文件，请在上述邮件中注明</strong>，我们会在 30 天内清除。</p>
+
+        <h2>其他数据</h2>
+        <p>聚合后的崩溃日志和遥测数据经过匿名化处理，账号删除后无法追溯回您本人；这些数据最多保留 90 天。</p>
+
+        <h2>相关文档</h2>
+        <ul>
+            <li><a href="privacy.html?lang=zh">隐私政策</a></li>
+            <li><a href="terms.html?lang=zh">条款和条件</a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 FusionNexis · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+    </div>
+</div>
+
+<script src="lang.js"></script>
+</body>
+</html>
