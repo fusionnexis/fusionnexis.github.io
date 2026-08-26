@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download NexisHealth — Nexis Fusion</title>
+    <link rel="icon" href="images/website_icon.png" type="image/png">
+    <link href="css/fusion.css" type="text/css" rel="stylesheet" />
+    <style>
+        .download-page { min-height: 100vh; background: #F5F7FA; padding: 32px 20px 64px; }
+        .download-page .container { max-width: 960px; margin: 0 auto; }
+        .download-page h1 { text-align: center; font-size: 28px; color: #1F2937; margin: 24px 0 8px; }
+        .download-page .subtitle { text-align: center; color: #6B7280; font-size: 15px; margin: 0 0 40px; }
+        .download-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 32px; }
+        .download-card { background: #fff; border: 1px solid #E5E7EB; border-radius: 12px; padding: 24px; text-align: center; width: 320px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+        .download-card h3 { margin: 0 0 12px; font-size: 20px; color: #1F2937; }
+        .download-card .qr { width: 240px; height: 240px; margin: 8px auto; display: block; border: 1px solid #E5E7EB; border-radius: 8px; }
+        .download-card .hint { color: #6B7280; font-size: 13px; margin: 12px 0 0; }
+        .download-card .badge { display: inline-block; background: #FEF3C7; color: #92400E; font-size: 12px; padding: 3px 10px; border-radius: 999px; margin-top: 8px; }
+        .back-link { display: block; text-align: center; margin-top: 40px; color: #2563EB; text-decoration: none; font-size: 14px; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="Head" data-animation="on">
+        <div class="top">
+            <div class="topCont">
+                <a href="./index_en.html" class="logo">
+                    <img src="images/logo.png" alt="">
+                    <span>Nexis Fusion</span>
+                </a>
+                <div class="menu">
+                    <a href="./index_en.html">Home</a>
+                </div>
+            </div>
+            <div class="language-item">
+                <div class="language">
+                    <img src="images/icon_age.png" alt="">
+                    <span>English</span>
+                    <i class="down"></i>
+                </div>
+                <div class="language-down">
+                    <a href="./download_en.html">English</a>
+                    <a href="./download.html">Chinese</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="download-page">
+        <div class="container">
+            <h1>Download NexisHealth</h1>
+            <p class="subtitle">Scan the QR code to install your personal health record companion</p>
+
+            <div class="download-grid">
+                <div class="download-card">
+                    <h3>Android</h3>
+                    <img class="qr" src="images/qr-android-mock.png" alt="Android download QR code">
+                    <p class="hint">Point your camera at the QR code<br>to open the Google Play listing</p>
+                    <span class="badge">In review — coming soon</span>
+                </div>
+
+                <div class="download-card">
+                    <h3>iOS</h3>
+                    <img class="qr" src="images/qr-ios-mock.png" alt="iOS download QR code">
+                    <p class="hint">Point your camera at the QR code<br>to open the App Store listing</p>
+                    <span class="badge">In review — coming soon</span>
+                </div>
+            </div>
+
+            <a class="back-link" href="./index_en.html">← Back to home</a>
+        </div>
+    </div>
+</body>
+</html>
