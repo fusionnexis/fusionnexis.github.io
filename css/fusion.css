@@ -70,6 +70,7 @@ a{
     align-items: center;
     padding: 0px;
     gap: 8px;
+    text-decoration: none;
 }
 .logo img{
     height: 32px;
@@ -119,41 +120,6 @@ a{
     font-size: 14px;
     line-height: 20px;
     color: #0A66C2;
-}
-.language i{
-    display: block;
-    width: 16px;
-    height: 16px;
-    background: url(../images/chevron-down.png) no-repeat;
-    background-size: cover;
-}
-.language-item:hover i{
-    transform: rotate(-180deg);
-}
-.language-down{
-    position: absolute;
-    top: 80px;
-    z-index: 1;
-    right: 0;
-    background-color: #fff;
-    border: 1px solid #F3F7FB;
-    width: 180px;
-    padding: 10px 0;
-    display: none;
-}
-.language-down a{
-    line-height: 34px;
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    color: #404B67;
-}
-
-.language-down a:hover{
-    color: #0A66C2;
-}
-.language-item:hover .language-down{
-    display: block;
 }
 .banner-font{
     text-align: center;
@@ -1041,9 +1007,6 @@ a{
     .language img{
         width: 24px;
         height: 24px;
-    }
-    .language-down{
-        top: 60px;
     }
     .item1right-icon .h4{
         font-size: 18px;
