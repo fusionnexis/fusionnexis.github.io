@@ -55,11 +55,14 @@ a{
 .topCont{
     height: 100%;
     max-width: 1280px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     position: relative;
+    box-sizing: border-box;
+    padding: 0 40px;
 }
 .logo,.language{
     display: flex;
@@ -84,7 +87,7 @@ a{
     align-items: center;
     height: 100%;
     position: absolute;
-    right: 0;
+    right: 40px;
 }
 .menu a{
     font-style: normal;
@@ -210,6 +213,8 @@ a{
     align-content: flex-start;
     flex-wrap: nowrap;
     justify-content: center;
+    box-sizing: border-box;
+    padding: 0 40px;
 }
 .Join_us-banner-cont{
     height: 100%;
@@ -443,8 +448,11 @@ a{
 }
 .Conter{
     max-width: 1280px;
+    width: 100%;
     margin: auto;
     position: relative;
+    box-sizing: border-box;
+    padding: 0 40px;
 }
 .item1{
     padding: 100px 0;
@@ -477,7 +485,7 @@ a{
 .item1right{
     width: 588px;
     position: absolute;
-    right: 0;
+    right: 40px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -640,7 +648,7 @@ a{
 .item4right{
     width: 608px;
     position: absolute;
-    right: 0;
+    right: 40px;
 }
 .item4right .resetH3{
     color:#0A66C2;
@@ -693,13 +701,50 @@ a{
 }
 .ContactRight{
     position: absolute;
-    right: 0;
+    right: 40px;
 }
 .ContactLeft p{
     font-size: 16px;
     color: #808EB1;
     line-height: 24px;
     margin-top: 12px;
+}
+.banner-font .trust-disclaimer{
+    margin-top: 20px;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #5A6685;
+}
+.ContactLeft .trust-product{
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #808EB1;
+}
+.ContactLeft .trust-links{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #808EB1;
+}
+.ContactLeft .trust-links a{
+    color: #0A66C2;
+}
+.ContactLeft .trust-links a:hover{
+    text-decoration: underline;
+}
+.ContactLeft .trust-links .sep{
+    color: #808EB1;
+}
+.ContactLeft .trust-disclaimer{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #808EB1;
 }
 .Contact{
     padding: 160px 0 65px 0;
@@ -875,7 +920,7 @@ a{
 }
 
 @media screen and (max-width: 750px) {
-    .topCont,.Conter{
+    .topCont,.Conter,.banner-cont{
         max-width: 100%;
         padding: 0 25px;
     }
@@ -960,7 +1005,7 @@ a{
         margin-top: 60px;
     }
     .Head {
-        height: 380px;
+        height: 420px;
         padding-top: 70px;
     }
     .banner-button a {
@@ -975,6 +1020,13 @@ a{
         width: 172px;
         margin: auto;
         color: #fff;
+    }
+    .banner-font .trust-disclaimer{
+        margin-top: 14px;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 300px;
+        padding: 0 8px;
     }
     .language-item{
         right: 20px;
