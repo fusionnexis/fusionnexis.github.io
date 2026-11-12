@@ -2,7 +2,7 @@
 
 Published Android APK for direct sideload from https://www.fusionnexis.com/download.html.
 
-- `NexisHealth.apk` — universal signed release APK, extracted from the same
+- `NexisMate.apk` — universal signed release APK, extracted from the same
   AAB the `nexis-native-app/nexis-rn` `build-prod` workflow submits to Google Play.
 - `version.json` — versionName / versionCode / build timestamp for the current APK.
 
