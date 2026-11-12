@@ -34,7 +34,7 @@ a{
 }
 .Head{
     width: 100%;
-    height: 780px;
+    height: 640px;
     /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(243, 247, 251, 0.88) 100%); */
     background: url(../images/banner.png)no-repeat;
     background-size:cover;
@@ -70,6 +70,7 @@ a{
     align-items: center;
     padding: 0px;
     gap: 8px;
+    text-decoration: none;
 }
 .logo img{
     height: 32px;
@@ -120,41 +121,6 @@ a{
     line-height: 20px;
     color: #0A66C2;
 }
-.language i{
-    display: block;
-    width: 16px;
-    height: 16px;
-    background: url(../images/chevron-down.png) no-repeat;
-    background-size: cover;
-}
-.language-item:hover i{
-    transform: rotate(-180deg);
-}
-.language-down{
-    position: absolute;
-    top: 80px;
-    z-index: 1;
-    right: 0;
-    background-color: #fff;
-    border: 1px solid #F3F7FB;
-    width: 180px;
-    padding: 10px 0;
-    display: none;
-}
-.language-down a{
-    line-height: 34px;
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    color: #404B67;
-}
-
-.language-down a:hover{
-    color: #0A66C2;
-}
-.language-item:hover .language-down{
-    display: block;
-}
 .banner-font{
     text-align: center;
 }
@@ -166,7 +132,7 @@ a{
     text-align: center;
 }
 .h4{
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 .Head .h2,.Head .h3,.item1right .h2,.item2-text .h2,.item3left .h2,.item4right .h2{
     font-style: normal;
@@ -178,7 +144,7 @@ a{
 }
 .Head .h3{
     font-weight: normal;
-    margin-bottom: 80px;
+    margin-bottom: 48px;
     font-size: 40px;
     margin-top: 10px;
 }
@@ -455,7 +421,7 @@ a{
     padding: 0 40px;
 }
 .item1{
-    padding: 100px 0;
+    padding: 64px 0;
 }
 .img1 .img-box,.img2 .img-box{
     width: 274px;
@@ -473,14 +439,14 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 55px;
+    gap: 40px;
 }
 .item1left .img2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 60px;
+    gap: 40px;
 }
 .item1right{
     width: 588px;
@@ -514,16 +480,16 @@ a{
     align-items: center;
 }
 .item1right-icon img{
-    width: 162px;
-    height: 162px;
+    width: 140px;
+    height: 140px;
     margin-bottom: 20px;
 }
 .item1right-icon{
-    margin-top: 70px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 80px;
+    gap: 48px;
 }
 .item1right-icon p{
     margin-top: 10px;
@@ -555,7 +521,7 @@ a{
 }
 .efficient_bj{
     width: 100%;
-    height: 820px;
+    height: 520px;
     background: url(../images/efficient_bj.png) no-repeat;
     background-size:cover;
 }
@@ -565,19 +531,19 @@ a{
     margin-top: 80px;
 }
 .item2-text{
-    padding-top: 100px;
+    padding-top: 56px;
 }
 .item2-text .h2,.item2-text .h5{
     color: #fff;
 }
 .item2-text .h5{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 300;
-    margin-top: 50px;
-    line-height: 48px;
+    margin-top: 28px;
+    line-height: 40px;
 }
 .item3{
-    padding: 120px 0;
+    padding: 72px 0;
 }
 .item3left{
     flex: 1;
@@ -635,8 +601,8 @@ a{
 .item4{
     background: url(../images/hero-bg.png) no-repeat;
     background-size:100% 100%;
-    height: 662px;
-    padding: 110px 0;
+    height: 520px;
+    padding: 64px 0;
 }
 .item4right .h3{
     margin-bottom: 0;
@@ -653,7 +619,7 @@ a{
 .item4right .resetH3{
     color:#0A66C2;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 28px;
 }
 .resetH3{
     font-weight: bold;
@@ -747,7 +713,7 @@ a{
     color: #808EB1;
 }
 .Contact{
-    padding: 160px 0 65px 0;
+    padding: 96px 0 65px 0;
 }
 .copyright{
     background-color: #2B303E;
@@ -858,7 +824,7 @@ a{
         right: 140px;
     }
     .Head{
-        height: 620px;
+        height: 500px;
     }
     .Head .h3,.Mobile.item4 .item4left{
         margin-bottom: 60px;
@@ -900,7 +866,7 @@ a{
         width: 457px;
     }
     .efficient_bj{
-        height: 581px;
+        height: 400px;
     }
     .post-flex .post-left,.post-right{
         width: 100%;
@@ -984,7 +950,7 @@ a{
         margin-top: 40px;
     }
     .item3,.item1{
-        padding: 60px 0;
+        padding: 40px 0;
     }
     .Mobile.Conter,.Mobile.Contact .Conter{
         display: flex;
@@ -1005,7 +971,7 @@ a{
         margin-top: 60px;
     }
     .Head {
-        height: 420px;
+        height: 360px;
         padding-top: 70px;
     }
     .banner-button a {
@@ -1042,9 +1008,6 @@ a{
         width: 24px;
         height: 24px;
     }
-    .language-down{
-        top: 60px;
-    }
     .item1right-icon .h4{
         font-size: 18px;
         line-height: 24px;
@@ -1054,7 +1017,7 @@ a{
         line-height: 24px;
     }
     .item4{
-        padding-top: 60px;
+        padding-top: 40px;
         padding-bottom: 80px;
     }
     .copyright{
